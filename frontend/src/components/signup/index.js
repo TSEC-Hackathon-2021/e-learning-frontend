@@ -14,20 +14,31 @@ let index = () => {
                             <h2 className="form-title">Sign up</h2>
                             <form method="POST" className="register-form" id="register-form" autoComplete="off">
                                 <div className="form-group">
-                                    <label className="signup-label" for="name"><i className="fas fa-user"></i></label>
+                                    <label className="signup-label" htmlFor="name"><i className="fas fa-user"></i></label>
                                     <input className="signup-Input" type="text" name="name" id="name" placeholder="Your Name"/>
                                 </div>
                                 <div className="form-group">
-                                    <label className="signup-label" for="email"><i class="fas fa-envelope-square"></i></label>
+                                    <label className="signup-label" htmlFor="email"><i className="fas fa-envelope-square"></i></label>
                                     <input className="signup-Input" type="email" name="email" id="email" placeholder="Your Email"/>
                                 </div>
                                 <div className="form-group">
-                                    <label className="signup-label" for="pass"><i class="fas fa-lock"></i></label>
+                                    <label className="signup-label" htmlFor="pass"><i className="fas fa-lock"></i></label>
                                     <input className="signup-Input" type="password" name="pass" id="pass" placeholder="Password"/>
                                 </div>
                                 <div className="form-group">
-                                    <label className="signup-label" for="re-pass"><i class="fas fa-lock"></i></label>
+                                    <label className="signup-label" htmlFor="re-pass"><i className="fas fa-lock"></i></label>
                                     <input className="signup-Input" type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                                </div>
+                                <div className="form-group">
+                                    <div style={{textAlign:"left",marginBottom:"1rem",fontSize:"1rem",fontWeight:"500"}}>Select Your Role</div>
+                                    <div style={{width:"fit-content",display:"inline-block",marginRight:"2rem",float:"left"}}>
+                                        <input type="radio" id="teacher" style={{marginRight:"1rem",outline:"none"}} name="Main" value="teacher" />
+                                        <label htmlFor="teacher">Teacher</label>
+                                    </div>
+                                    <div style={{width:"fit-content",display:"inline-block"}}>
+                                        <input type="radio" id="student" style={{marginRight:"1rem",outline:"none"}} name="Main" value="student" />
+                                        <label htmlFor="student">Student</label>
+                                    </div>
                                 </div>
                                 <div className="form-group form-button">
                                     <button type="button" className="form-submit btn btn-primary">Submit</button>
@@ -36,7 +47,7 @@ let index = () => {
                         </div>
                         <div className="signup-image">
                             <figure><img className="signup-img" src={signupImage} alt="singupimage" /></figure>
-                            <a href="/" className="signup-image-link">I am already member</a>
+                            <a href="/login" className="signup-image-link">I am already member</a>
                         </div>
                     </div>
                 </div>
