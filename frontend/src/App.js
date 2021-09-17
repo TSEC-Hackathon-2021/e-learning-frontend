@@ -1,13 +1,15 @@
 import './App.css';
 import Signup from "./components/signup"
 import Login from './components/login'
+import Homepage from './components/homepage'
 import {Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Route path='/signup' component={Signup}/>
-      <Route path='/login' component={Login} />
+      <Route exact path='/' component={Homepage}/>
+      <Route exact path='/signup' component={Signup}/>
+      <Route exact path='/login' component={Login} />
     </div>
   );
 }
