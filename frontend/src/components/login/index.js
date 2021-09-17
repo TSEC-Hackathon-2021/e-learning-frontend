@@ -29,7 +29,6 @@ let index = () => {
                         </div>
                         <div className="signup-image">
                             <figure><img className="signup-img" src={LoginImage} alt="Login Image" /></figure>
-                            <a href="/" className="signup-image-link">I am already member</a>
                         </div>
                     </div>
                 </div>
