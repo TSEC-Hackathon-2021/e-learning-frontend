@@ -190,11 +190,21 @@
   color: #222;
 }
 
+.brand--button a
+{
+  text-decoration: none;
+  color: inherit;
+}
 
+.brand--button:hover a
+{
+  text-decoration: none;
+  color: inherit;
+}
 
 .signup-label {
   position: absolute;
-  left: 0;
+  left: 2px;
   top: 50%;
   transform: translateY(-50%);
   -moz-transform: translateY(-50%);

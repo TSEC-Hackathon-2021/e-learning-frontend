@@ -1,5 +1,5 @@
 import React from "react"
-
+import {Link} from 'react-router-dom'
 import LoginImage from "../../assests/images/login.png"
 
 import "./styles.css"
@@ -14,11 +14,11 @@ let index = () => {
                             <h2 className="form-title">Sign In</h2>
                             <form method="POST" className="register-form" id="register-form" autoComplete="off">
                                 <div className="form-group">
-                                    <label className="signup-label" htmlFor="email"><i className="fas fa-envelope-square"></i></label>
+                                    <label className="signup-label" htmlFor="email"><i className="fal fa-envelope"></i></label>
                                     <input className="signup-Input" type="email" name="email" id="email" placeholder="Your Email"/>
                                 </div>
                                 <div className="form-group">
-                                    <label className="signup-label" htmlFor="pass"><i className="fas fa-lock"></i></label>
+                                    <label className="signup-label" htmlFor="pass"><i className="fal fa-lock"></i></label>
                                     <input className="signup-Input" type="password" name="pass" id="pass" placeholder="Password"/>
                                 </div>
                                 <div className="form-group form-button">
@@ -28,7 +28,7 @@ let index = () => {
                         </div>
                         <div className="signup-image">
                             <figure><img className="signup-img" src={LoginImage} alt="Login Image" /></figure>
-                            <a href="/signup" className="signup-image-link">I am a new member</a>
+                            <Link to="/signup" className="signup-image-link">I am a new member</Link>
                         </div>
                     </div>
                 </div>

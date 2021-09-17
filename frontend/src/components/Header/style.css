@@ -1,0 +1,139 @@
+#myCarousel
+{
+    top: 4.2rem;
+}
+
+#search-tag:focus
+{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+#myCarousel img
+{
+    height: 80vh;
+}
+
+.main-carousel-caption {
+    width: 86%;
+    position: absolute;
+    left: 10vw;
+    overflow: hidden;
+    margin: 0;
+    bottom: 37%;
+    z-index: 99;
+}
+
+.caption-wrapper {
+    text-align: center;
+}
+
+.caption-wrapper p {
+    color: #fff;
+    font-weight: 300;
+    margin: 10px 0 0;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.caption-wrapper h3 {
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.form-inline input, .form-inline button {
+    height: 60px;
+}
+
+#srch-crm
+{
+    font-size: 30px;
+    box-shadow: none !important;
+}
+
+@media all and (min-width:992px)
+{
+    .main-carousel-caption {
+        margin-left: auto;
+    }
+    .caption-wrapper p {
+        font-size: 35px;
+    }
+    .caption-wrapper h3 {
+        font-size: 65px;
+    }
+    .nav-link {
+        color: #fff !important;
+    }
+    .navbar-nav {
+        padding-left: 0px;
+        background: none;
+        margin: 0;
+    }
+}
+
+@media all and (min-width:1200px) {
+    .main-carousel-caption {
+        bottom: 35%;
+    }
+}
+
+@media all and (max-width:992px)
+{
+    #srch-crm
+    {
+        font-size: 18px !important;
+    }
+
+    .caption-wrapper div p
+    {
+        font-size: 36px;
+    }
+
+    .caption-wrapper div h3
+    {
+        font-size: 36px;
+    }
+}
+
+@media all and (max-width:576px)
+{
+    .main-carousel-caption
+    {
+        bottom:28%;
+    }
+
+    .caption-wrapper div p
+    {
+        font-size: 27px;
+    }
+
+    .caption-wrapper div h3
+    {
+        font-size: 31px;
+    }
+}
+
+@media all and (max-width:378px)
+{
+    .main-carousel-caption
+    {
+        bottom:15%;
+    }
+
+    .caption-wrapper div p
+    {
+        font-size: 27px;
+    }
+
+    .caption-wrapper div h3
+    {
+        font-size: 31px;
+    }
+}

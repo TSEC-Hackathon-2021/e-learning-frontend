@@ -1,5 +1,5 @@
 import React from "react"
-
+import {Link} from 'react-router-dom'
 import signupImage from "../../assests/images/signup-imagei.png"
 
 import "./style.css"
@@ -14,19 +14,19 @@ let index = () => {
                             <h2 className="form-title">Sign up</h2>
                             <form method="POST" className="register-form" id="register-form" autoComplete="off">
                                 <div className="form-group">
-                                    <label className="signup-label" htmlFor="name"><i className="fas fa-user"></i></label>
+                                    <label className="signup-label" htmlFor="name"><i className="fal fa-user"></i></label>
                                     <input className="signup-Input" type="text" name="name" id="name" placeholder="Your Name"/>
                                 </div>
                                 <div className="form-group">
-                                    <label className="signup-label" htmlFor="email"><i className="fas fa-envelope-square"></i></label>
+                                    <label className="signup-label" htmlFor="email"><i className="fal fa-envelope"></i></label>
                                     <input className="signup-Input" type="email" name="email" id="email" placeholder="Your Email"/>
                                 </div>
                                 <div className="form-group">
-                                    <label className="signup-label" htmlFor="pass"><i className="fas fa-lock"></i></label>
+                                    <label className="signup-label" htmlFor="pass"><i className="fal fa-lock"></i></label>
                                     <input className="signup-Input" type="password" name="pass" id="pass" placeholder="Password"/>
                                 </div>
                                 <div className="form-group">
-                                    <label className="signup-label" htmlFor="re-pass"><i className="fas fa-lock"></i></label>
+                                    <label className="signup-label" htmlFor="re-pass"><i className="fal fa-lock"></i></label>
                                     <input className="signup-Input" type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
                                 </div>
                                 <div className="form-group">
@@ -47,7 +47,7 @@ let index = () => {
                         </div>
                         <div className="signup-image">
                             <figure><img className="signup-img" src={signupImage} alt="singupimage" /></figure>
-                            <a href="/login" className="signup-image-link">I am already member</a>
+                            <Link to="/login" className="signup-image-link">I am already member</Link>
                         </div>
                     </div>
                 </div>
