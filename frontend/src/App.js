@@ -3,6 +3,7 @@ import Signup from "./components/signup"
 import Login from './components/login'
 import Homepage from './components/homepage'
 import {Route} from 'react-router-dom';
+import './bootstrap.min.css'
 
 function App() {
   return (
