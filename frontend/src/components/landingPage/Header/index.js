@@ -8,7 +8,7 @@ import c from '../../../assests/images/c.jpeg'
 function Header() {
 
   return(
-    <div>
+    <div style={{marginTop:'10px'}}>
       <Carousel>
         <Carousel.Item>
           <img
