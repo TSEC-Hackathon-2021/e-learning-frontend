@@ -22,12 +22,13 @@ let index = () => {
                                     <input className="signup-Input" type="password" name="pass" id="pass" placeholder="Password"/>
                                 </div>
                                 <div className="form-group form-button">
-                                    <button type="button" className="form-submit btn btn-primary">Submit</button>
+                                    <button type="button" style={{borderRadius:"2px"}} className="form-submit btn btn-primary">Submit</button>
                                 </div>
                             </form>
                         </div>
                         <div className="signup-image">
-                            <figure><img className="signup-img" src={LoginImage} alt="Login Image" /></figure>
+                            <figure><img className="signup-img" src={LoginImage} alt="lgn-img" /></figure>
+                            <Link to="/signup" className="signup-image-link">I am new here</Link>
                         </div>
                     </div>
                 </div>

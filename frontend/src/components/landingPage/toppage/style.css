@@ -1,0 +1,81 @@
+header.masthead
+{
+	position: relative;
+	background-color: #343a40;
+	background: url("https://images.unsplash.com/photo-1523289333742-be1143f6b766?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80") no-repeat center center;
+	background-size: cover;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
+#srch-btn
+{
+	color: #fff;
+	background-color: rgb(26 26 26 / 70%);
+	box-shadow: none !important;
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+}
+
+#srch-btn:hover
+{
+	background-color: rgb(26,26,26);
+}
+
+header.masthead:before
+{
+	content: "";
+	position: absolute;
+	background-color: #1c375e;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+}
+
+header.masthead h1, header.masthead .h1
+{
+	font-size: 2rem;
+}
+
+#srch-frm
+{
+	margin-left: 40px;
+}
+
+#srch-inp
+{
+	margin-right: 20px;
+	box-shadow: none !important;
+}
+
+@media (min-width: 768px)
+{
+	header.masthead
+	{
+		padding-top: 11.2rem;
+    	padding-bottom: 11.2rem;
+  	}
+
+	header.masthead h1, header.masthead .h1
+	{
+    	font-size: 3rem;
+  	}
+}
+
+@media (max-width: 576px)
+{
+	#srch-frm
+	{
+		margin: 10px;
+	}
+
+	#srch-inp
+	{
+		margin-bottom: 20px;
+	}
+}

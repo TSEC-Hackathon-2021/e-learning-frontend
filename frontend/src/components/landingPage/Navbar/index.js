@@ -13,7 +13,6 @@ const index = () => {
 
 
   return (
-    <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
           <Link to="/">
@@ -61,7 +60,6 @@ const index = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </header>
   );
 };
 

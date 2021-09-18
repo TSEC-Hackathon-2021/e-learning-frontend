@@ -41,13 +41,13 @@ let index = () => {
                                     </div>
                                 </div>
                                 <div className="form-group form-button">
-                                    <button type="button" className="form-submit btn btn-primary">Submit</button>
+                                    <button type="button" style={{borderRadius:"2px"}} className="form-submit btn btn-primary">Submit</button>
                                 </div>
                             </form>
                         </div>
                         <div className="signup-image">
                             <figure><img className="signup-img" src={signupImage} alt="singupimage" /></figure>
-                            <Link to="/login" className="signup-image-link">I am already member</Link>
+                            <Link to="/login" className="signup-image-link">I am already a member</Link>
                         </div>
                     </div>
                 </div>

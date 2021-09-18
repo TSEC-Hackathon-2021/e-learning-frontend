@@ -1,0 +1,23 @@
+.course--mycard
+{
+    width: 85%;
+    margin:auto;
+    margin:1rem auto;
+}
+
+.course--mycard img
+{
+    height: 12rem;
+}
+
+#domn
+{
+    margin-top:2rem;
+    margin-bottom:4rem;
+    background:#f7f7f7;
+    padding: 2rem 0;
+}
+
+a{
+    text-decoration: none !important;
+}
