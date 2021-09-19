@@ -9,7 +9,7 @@ function Header() {
 
   return(
     <div style={{marginTop:'10px'}}>
-      <h1 style={{margin:'25px 0'}}>Domains</h1>
+      <h1 style={{margin:'25px 0'}}>Top Courses</h1>
       <Carousel>
         <Carousel.Item>
           <img
