@@ -1,0 +1,32 @@
+.inp-data
+{
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 10px 12px;
+    font-size: 16px;
+    line-height: 1.43;
+    color: #1c1d1f;
+    border-radius:0 !important;
+    background: none !important;
+    border: 1px solid #1c1d1f !important;
+    box-shadow: none !important;
+    -webkit-border-radius:0 !important;
+    -moz-border-radius:0 !important;
+    -ms-border-radius:0 !important;
+    -o-border-radius:0 !important;
+}
+
+.label-inp
+{
+    padding: 10px !important;
+}
+
+@media (max-width: 768px)
+{
+    .label-inp
+    {
+        padding-left: 20px !important;
+        text-align: left;
+    }
+}
