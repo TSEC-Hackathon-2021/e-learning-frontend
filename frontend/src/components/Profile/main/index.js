@@ -88,9 +88,9 @@ function Main() {
                         <div class="tab-content profile-tab" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <h3 className="tab-pane--tit">About</h3>
-                                <Input name="Name" placeholder="Name" type="text" disabled={edit}/>
-                                <Input name="Email" placeholder="Email" type="email" disabled={edit}/>
-                                <Input name="Profession" placeholder="Profession" type="text" disabled={edit}/>
+                                <Input name="Name" placeholder={dataValuses.name} type="text" disabled={edit}/>
+                                <Input name="Email" placeholder={dataValuses.email} type="email" disabled={edit}/>
+                                <Input name="Profession" placeholder={dataValuses.profession} type="text" disabled={edit}/>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h3 className="tab-pane--tit">Links</h3>

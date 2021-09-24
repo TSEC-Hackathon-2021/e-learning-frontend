@@ -6,6 +6,7 @@ import Profile from './components/Profile/main'
 import { ToastProvider } from 'react-toast-notifications';
 import {Route} from 'react-router-dom';
 import './bootstrap.min.css'
+import CoursePage from './components/course/CoursePage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ToastProvider autoDismissTimeout={2000}>
         <Route exact path='/profile' component={Profile}/>
       </ToastProvider>
+      <Route exact path='/course/:id' component={CoursePage}/>
       <Route exact path='/signup' component={Signup}/>
       <Route exact path='/login' component={Login} />
     </div>
